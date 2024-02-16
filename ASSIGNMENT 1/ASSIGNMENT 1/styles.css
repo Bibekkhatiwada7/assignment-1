@@ -1,0 +1,59 @@
+/* CSS Reset */
+* {
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Arial', serif;
+    line-height: 1.6;
+    color: #faf20a;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+body {
+    background-image: url('/image.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 3em;
+    color: #ea2c0a;
+    margin-bottom: 14px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Arial', serif;
+    color: #ea2c0a;
+    margin-bottom: 14px;
+}
+
+h3 {
+    font-family: Arial, serif;
+    color:#ea2c0a;
+    margin-bottom: 14px;
+}
+
+p {
+    font-size: 1.1em;
+    
+}
+
+article {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
